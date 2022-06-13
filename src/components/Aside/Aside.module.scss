@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #82B284;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  padding: 1.25rem 1rem;
+}
+
+.active {
+  background-color: #A4C7A5;
+}
+

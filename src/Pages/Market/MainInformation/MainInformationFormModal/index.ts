@@ -1,0 +1,1 @@
+export { MainInformationFormModal } from "./MainInformationFormModal";

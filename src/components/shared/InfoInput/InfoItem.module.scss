@@ -1,0 +1,29 @@
+.group {
+  display: grid;
+  grid-template-columns: 150px auto;
+  align-items: center;
+}
+.label {
+  font-size: 14px;
+}
+
+.name {
+  font-family: var(--font-stack);
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+}
+
+.name:focus,
+.name:hover {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.name[href^="mailto:"] {
+  color: #82B284;
+}

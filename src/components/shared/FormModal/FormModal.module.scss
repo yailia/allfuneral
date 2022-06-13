@@ -1,0 +1,14 @@
+.closeBtn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  transform: rotate(45deg);
+  
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    path {
+      fill: #CDCDCD;
+    }
+  }
+}

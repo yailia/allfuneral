@@ -1,0 +1,20 @@
+.button {
+  padding: 0.75rem;
+  display: grid;
+  grid-template-columns: 20px auto;
+  width: 25rem;
+  border: 1px solid #E5E5E5;
+  border-radius: 2px;
+  color: #82B284;
+  font-family: var(--font-stack);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.button:active {
+  filter: brightness(1.3);
+}
